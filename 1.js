@@ -156,13 +156,89 @@ if (myscore >= 90){
 // if age is negative ..say negative age
 // if age is greater than 100 ...say you cant vote
 
-let age = -10
-if (age >= 18) {
-    console.log("can vote")
-} else if (age <= 18) {
-    console.log("cannot vote")
-} else if (age < 0) {
-    console.log("negative age")
-} else {
-    console.log("cant vote")
-}
+// let age = -10
+// if (age >= 18) {
+//     console.log("can vote")
+// } else if (age <= 18) {
+//     console.log("cannot vote")
+// } else if (age < 0) {
+//     console.log("negative age")
+// } else {
+//     console.log("cant vote")
+// }
+
+///////////////////////
+// syntax of break 
+
+// for (let i = 1; i <= 10; i++){
+//   if (i == 5) {
+//     console.log("breaking at"; i)
+//      break; }
+// console.log(i)}
+// the loop stops pnce i reaches value 5 
+
+/*
+Continue statement
+it is used to skip the current iteration and move to the next one
+*/
+
+// for (let i == 1; i <= 10; i++) {
+
+// if (i == 4 || i == 5){
+// console.log("i am skipping the value" , i)
+// continue;
+// }
+// console.log(i)}
+
+/*
+Switch Statement
+it is used to execute one case frfom mul;tiple possible cases. it is often used as an alternative to multiple matching if...else if condtns.
+my defn would be
+// it is used to match a condtn with multiple matching condtns.. which is an alternate to multiple if.. elseif statements.
+
+syntax is
+
+switch(expression) {
+case value1:
+  //code block
+  break;
+  case value2:
+    //cod block
+    break;
+    default:
+      //default code block
+      }
+
+      Each case is checked against the expression.
+
+      if a case checked against the expression.
+      
+      the break statement prevents fall-through (executing multiple cases).
+
+      the default case runs if no case matches (like an else statement).
+      /*/
+
+
+//  let thsStudent = "shamil";
+
+//  switch (thsStudent) {
+
+//   case "ishwari":
+//       console.log("hello its ishwari");
+//       break;
+//       case "Azhar":
+//         console.log("azhar");
+//         break;
+//         case "shamil":
+//           console.log("shamil");
+//           break;
+//           default:
+//             console.log("invalid");
+//  }
+
+
+// for (let i = 0; i <= 5; ++ i) {
+//   console. log(i)
+// }
+
+
