@@ -187,3 +187,37 @@
 //  1. Hoisting- Write a program to demonstrate function and variable hoisting. Explain the output.
 //  2. Arrow Functions- Write an arrow function to check if a given number is prime.
 // 3. IIFE- Create an IIFE that logs the square of a number
+
+
+//////////////////////////////////////////////
+
+
+
+
+// let i = 1;
+// while (i <=5) {
+//     console.log(i), i++
+// }
+
+// let k = 1;
+// do  {
+//     console.log(k); k++
+// } while (k <= 5)
+
+// for(let i = 1 ; i <=10 ;i++){ if (i==5) {
+//     console.log("break at 5",i) continue;
+// }
+// console.log(i);
+// }
+
+let num = 10;
+switch (num){
+    case 1:
+        console.log("val 1");
+        break;
+        case 2:
+            console.log("val 2");
+            break;
+            default :
+                console.log("inval");
+}
