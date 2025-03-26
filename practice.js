@@ -210,14 +210,24 @@
 // console.log(i);
 // }
 
-let num = 10;
-switch (num){
-    case 1:
-        console.log("val 1");
-        break;
-        case 2:
-            console.log("val 2");
-            break;
-            default :
-                console.log("inval");
-}
+// let num = 10;
+// switch (num){
+//     case 1:
+//         console.log("val 1");
+//         break;
+//         case 2:
+//             console.log("val 2");
+//             break;
+//             default :
+//                 console.log("inval");
+// }
+  
+
+////////////////////////////////
+
+// Array Methods
+
+// let arr1 = [10, 20, 30];
+// // console.log(arr1);
+// arr1[2] = 50;
+// console.log(arr1);
