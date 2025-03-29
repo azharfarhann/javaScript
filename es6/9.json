@@ -1,0 +1,6 @@
+{
+    "fname": "Azhar",
+    "isAlive": true,
+    "age": 25,
+    "Skills": ["HTML", "CSS", "JS", "React", "Node", "MongoDB"],
+}
