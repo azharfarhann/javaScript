@@ -1,4 +1,3 @@
-
 // String Methods
 
 // 1. charAt()
@@ -179,7 +178,10 @@
 // console.log(str.valueOf()); // Hello World!
 
 
-//
+let a = new Number(10)
+
+// let a = 10;
+console.log(15 - a) 
 
 
 

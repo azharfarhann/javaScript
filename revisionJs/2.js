@@ -77,7 +77,7 @@
 // let str = "hello ! azhar";
 // console.log(str.indexOf("!"));
 
-//6.lastIdexOf()
+//6.lastIndexOf()
 // gives right to left index
 //  let str = "1234 4321";
 //  console.log(str.lastIndexOf("")); // 9 how??ask
@@ -265,3 +265,41 @@
 // returns primitive value of string
 
 
+
+// lastindexof
+
+// indexOf
+
+// let str = "Farhan";
+//         012345
+
+// indexOf ==> str ==> index
+// Iif not found ===> -1
+// console.log(str.indexOf("a"));
+// console.log(str.lastIndexOf("a"));
+
+//  let str = "1234 4321";
+//  //         012345678
+//  console.log(str.lastIndexOf("")); 
+// // 9
+
+// let str = "suhail+azhar+shamil";
+// console.log(str.split("+"));
+
+let str = "suhail()azhar()shamil";
+console.log(str.split("()"));
+
+
+// let a = "1233211223"
+// //  i    0123456789
+// //  l    123456789^
+
+// console.log(a.slice(7,10))
+// console.log(a.substring(7,10))
+
+// let str = "1233211223";
+// console.log(str.substring(3,7));   ASK SIRRRRRRR ?????
+
+
+let b =  15;
+console.log(b.valueOf(2))
