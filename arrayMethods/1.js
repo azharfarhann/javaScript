@@ -1,5 +1,5 @@
-let arr3 = [10, 20, 30];
-console.log(arr3);
+// let arr3 = [10, 20, 30];
+// console.log(arr3);
 // arr[3] = 50;  
 // console.log(arr3); // updated value of arr3
 

@@ -30,22 +30,20 @@
 3. //fill()
 // fills the array with a value
 
-// let arr =[1,2,3];
-// let arr2 =[4,5,6];
-// console.log(arr2.fill(1,2,3)); // ASK SIR???
+// let arr =[1,2,3,"azhar"];
+// console.log(arr.fill("replace"));
 
-// let arr = [true, "world", 445];
-// let arr2 = [false, "hello", "67y6"];
-// console.log(arr.fill(arr2)); // ASK SIR ????
-
-// let arr1=[1,"az",2];
-// let arr2=[3,2,1];
-// console.log(arr2.fill(arr1)); // ASK SIR?   
+// let arr =[true, false, 98];
+// console.log(arr.fill(null));
+  
 
 //4. flat()
 
-// let arr1 =["azhar", "farhan"[10,20][12,22]];
-// console.log(arr1.flat()); // ASK SIR?
+// let arr = ["azhar",true,[24]];
+//   console.log(arr.flat());
+
+let arr = [24, 45,["azhar"][23]];
+console.log(arr.flat());
 
 //5. includes()
 // checks if the array has the value    
@@ -130,29 +128,29 @@
 // console.log(arr2.fill(1,2,3)); // ASK SIR???
 
 
-let arr = ["Shamil","Azhar",10,true,null,undefined];
+// let arr = ["Shamil","Azhar",10,true,null,undefined];
 
-console.log(arr.fill("Suhail"))
-
-
-
-let str = "Md Suhail Ali";
-console.log(str.replace("Ali","Roushan"))
-
-let nums = [1,2,3,4,5,6,7,8,10];
-console.log(nums.fill("100")) // fill === replaceall with one value
+// console.log(arr.fill("Suhail"))
 
 
-let arr1 = [10,20,[30,40],[50,60],[70,80]]
-///         0  1  2[0] 2[1]     
-console.log(arr1[2][0])
 
-let arr2 = [10,40];
-let arr3= {
-  name:'suhail',
-  age:22
-}
+// let str = "Md Suhail Ali";
+// console.log(str.replace("Ali","Roushan"))
 
-console.log(Array.isArray(arr2))
-console.log(Array.isArray(arr3))
+// let nums = [1,2,3,4,5,6,7,8,10];
+// console.log(nums.fill("100")) // fill === replaceall with one value
+
+
+// let arr1 = [10,20,[30,40],[50,60],[70,80]]
+// ///         0  1  2[0] 2[1]     
+// console.log(arr1[2][0])
+
+// let arr2 = [10,40];
+// let arr3= {
+//   name:'suhail',
+//   age:22
+// }
+
+// console.log(Array.isArray(arr2))
+// console.log(Array.isArray(arr3))
 
