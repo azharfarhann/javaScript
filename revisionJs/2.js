@@ -286,8 +286,8 @@
 // let str = "suhail+azhar+shamil";
 // console.log(str.split("+"));
 
-let str = "suhail()azhar()shamil";
-console.log(str.split("()"));
+// let str = "suhail()azhar()shamil";
+// console.log(str.split("()"));
 
 
 // let a = "1233211223"
@@ -301,5 +301,5 @@ console.log(str.split("()"));
 // console.log(str.substring(3,7));   ASK SIRRRRRRR ?????
 
 
-let b =  15;
-console.log(b.valueOf(2))
+// let b =  15;
+// console.log(b.valueOf(2))

@@ -42,8 +42,8 @@
 // let arr = ["azhar",true,[24]];
 //   console.log(arr.flat());
 
-let arr = [24, 45,["azhar"][23]];
-console.log(arr.flat());
+// let arr = [24, 45,["azhar"][23]];
+// console.log(arr.flat());
 
 //5. includes()
 // checks if the array has the value    
@@ -153,4 +153,125 @@ console.log(arr.flat());
 
 // console.log(Array.isArray(arr2))
 // console.log(Array.isArray(arr3))
+
+// 19. filter()
+// returns array of elements that passthe condition
+// wont change the original array
+
+// let arr = [1,2,3,4,5,6,7,8];   
+// console.log(arr.filter((ele) => ele % 2 === 0))  
+// console.log(arr) // original array wont change   
+
+
+// let arr = [1,2,3,4,45,54,65];
+// console.log(arr.filter((ele) => ele > 2 ));
+
+// let arr =[10,34,67,30];
+// console.log(arr.filter((x) => x > 30)); 
+// console.log(arr);
+
+// let arr =["azhar", "34", true,20];
+// console.log(arr.filter((ele) => typeof ele == "number")); // returns array of numbers
+
+// 20. find()
+// returns first element that passes the condition
+
+// let arr = [1,2,3,4,5,6,7,8];
+// console.log(arr.find((ele) => ele > 5)) // returns first element that passes th condition   
+
+// let arr = [20,-30,-40,-1,-0.1];
+// console.log(arr.find((ele) => ele < 0));
+
+// let arr =["23","ka","azha",true,20];
+// console.log(arr.find((ele) => typeof ele == "null")); // returns first element that passes
+
+// 21. findIndex()
+// returns index of first element that passes the condition
+// returns -1 if no element is found
+
+// let arr =[13,34,56,77];
+// console.log(arr.findIndex((ele) => ele > 50)); // returns index of first element that
+
+// let arr =[20,-3,-1,0.5,4];
+// console.log(arr.findIndexOf((ele) => ele < 0 ));
+
+// let arr = [1,2,3,4,5,6,7,8];
+// console.log(arr.findIndex((ele) => ele > 5)) // returns index of first element that
+// console.log(arr.findIndex((ele) => ele > 10)) // returns -1 if no element   
+
+22.//toString()
+// converts array to string
+// converts all elements to string
+
+// let arr = [1,2,3,4,5,6,7,8];
+// console.log(arr.toString()); // converts array to string
+
+
+// let arr =[1,2,3];
+// console.log(arr.toString(),typeof arr);
+
+// 22.sort()
+// sort array in ascending order
+
+// let arr =[80,45,95,105,366,55];
+// console.log(arr.sort()); 
+
+// let arr = [80,45,95,105,366,55];
+// console.log(arr.sort((a,b) => a-b)); // sort array in ascending order
+
+// let arr = [80,45,95,105,366,55];
+// console.log(arr.sort((a,b) => b-a)); // sort array in descending order
+
+//23. slice()
+// returns new array with elements from start to end
+
+// let arr = [1,2,3,4,5,6,7,8];
+// console.log(arr.slice(2,5)); // returns new array with elements from start to end
+
+// let arr =["azhar","23",3,45];
+// console.log(arr.slice(0,3));
+
+// let arr =["azhar",[23,45],"hi"];
+// console.log(arr.slice(0,1[0])); ?? ask
+
+// 25. splice()
+// removes elements from array
+// adds elements to array
+// returns array of removed elements
+//  let arr = ["appple","orange","banana"]
+//  console.log(arr.splice(1,3));
+//  console.log(arr);// removed elements
+
+// let arr = ["appple","orange","banana"];
+// console.log(arr.splice(1,0,"grapes"));
+// console.log(arr);    // adds elements to array
+
+// let arr = ["appple","orange","banana"];
+// console.log(arr.splice(0,2));
+// console.log(arr);
+
+// 26. some()
+// // true or false if any element in array meets the condition
+// let arr = [1,2,3,4,5];
+// console.log(arr.some((ele) => ele >3)); // returns true if any element in array meets the condition
+
+// let arr = ["azhar","24",34,50];
+// console.log(arr.some((ele) =>  Array. isArray(ele); //
+
+// 27. reduce()
+// returns single value
+let arr = [1,2,3,4,5];
+console.log(arr.reduce((acc,ele) => acc+ele,3)); // Ask sir
+
+
+
+
+
+
+
+
+
+
+
+
 
