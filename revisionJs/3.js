@@ -121,7 +121,7 @@
 // let arr =["azha", 12,true,22];
 // console.log(arr.length);
 
-//11. 
+//11. fill()
 
 // let arr =[1,2,3];
 // let arr2 =[4,5,6];
@@ -155,7 +155,7 @@
 // console.log(Array.isArray(arr3))
 
 // 19. filter()
-// returns array of elements that passthe condition
+// returns array of elements that pass the condition
 // wont change the original array
 
 // let arr = [1,2,3,4,5,6,7,8];   
@@ -171,7 +171,7 @@
 // console.log(arr);
 
 // let arr =["azhar", "34", true,20];
-// console.log(arr.filter((ele) => typeof ele == "number")); // returns array of numbers
+// console.log(arr.filter((ele) => typeof ele === "number")); // returns array of numbers
 
 // 20. find()
 // returns first element that passes the condition
@@ -190,7 +190,7 @@
 // returns -1 if no element is found
 
 // let arr =[13,34,56,77];
-// console.log(arr.findIndex((ele) => ele > 50)); // returns index of first element that
+// console.log(arr.findIndex((ele) => ele > 50)); // returns index of first element that passes the condtn
 
 // let arr =[20,-3,-1,0.5,4];
 // console.log(arr.findIndexOf((ele) => ele < 0 ));
@@ -237,10 +237,10 @@
 // 25. splice()
 // removes elements from array
 // adds elements to array
-// returns array of removed elements
+// // returns array of removed elements
 //  let arr = ["appple","orange","banana"]
-//  console.log(arr.splice(1,3));
-//  console.log(arr);// removed elements
+//  console.log(arr.splice(1,3)); // removed elements
+//  console.log(arr);
 
 // let arr = ["appple","orange","banana"];
 // console.log(arr.splice(1,0,"grapes"));
@@ -259,18 +259,31 @@
 // console.log(arr.some((ele) =>  Array. isArray(ele); //
 
 // 27. reduce()
-// returns single value
-let arr = [1,2,3,4,5];
-console.log(arr.reduce((acc,ele) => acc+ele,3)); // Ask sir
+// // reduces array to single value
+// gives single value
+// let num = [1,2,3,4,5];
+// let sum = num.reduce((start, curr) => start - curr,1);
+// console.log(sum); // returns single value
+// let arr = [1,2,3,4,5];
+// console.log(arr.reduce((acc,ele) => acc+ele,0)); // returns sum
+
+// 28. map ()
+//  returns new array with elements transformed
+// let arr = [1,2,3,4,5];
+// console.log(arr.map(n => n*2)); // returns new array with elements transformed
+
+// let arr = ["azhar","24",34,50];
+// console.log(arr.map((ele) => ele*2)); // returns new array with elements transformed
+
+// let num = [12,3,4,56,6,7,44];
+// console.log(num.map(n => n*2)); // returns new array with elements transformed
 
 
+// let Celsius = [0, 10, 20, 30, 40];
+// console.log(Celsius.map(c => c  * 9 / 5 + 32)); // returns new array with elements transformed
 
-
-
-
-
-
-
+// let arr = ["azhar", 23, "23", true];
+// console.log(arr.map(a => typeof a));
 
 
 

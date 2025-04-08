@@ -90,7 +90,7 @@
 // console.log(r)
 
 // implicit conversions
-// anydatatyoe ti string ( string operator)
+// anydatatyoe to string ( string operator)
 
 // let data = 2;
 // data = 2 + "";
@@ -175,7 +175,7 @@ if (myscore >= 90){
 //     console.log("breaking at"; i)
 //      break; }
 // console.log(i)}
-// the loop stops pnce i reaches value 5 
+// the loop stops once i reaches value 5 
 
 /*
 Continue statement
@@ -192,7 +192,7 @@ it is used to skip the current iteration and move to the next one
 
 /*
 Switch Statement
-it is used to execute one case frfom mul;tiple possible cases. it is often used as an alternative to multiple matching if...else if condtns.
+it is used to execute one case from multiple possible cases. it is often used as an alternative to multiple matching if...else if condtns.
 my defn would be
 // it is used to match a condtn with multiple matching condtns.. which is an alternate to multiple if.. elseif statements.
 

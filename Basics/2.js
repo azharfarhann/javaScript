@@ -254,7 +254,7 @@ it is a way to define a function as part of an expression, usually by assigning 
 /*
 in JS, Hoisting is a behaviour in which a function or variable can b used bfore declaration is called Hoisiting
 */
-//// hoisting included below in example..
+//// hoisting is included below in example..
 
 // sayHello()
 // function sayHello(){
